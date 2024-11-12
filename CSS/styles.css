@@ -77,6 +77,8 @@ h2{
         justify-content: center;
     }
     .btn .btns{
+        display: flex;
+        justify-content: center;
         margin: 10px 0;
     }
 }
