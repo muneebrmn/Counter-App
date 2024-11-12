@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Inter;
+    src: url(/Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    background-color: #1F876F;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+    letter-spacing: 15px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    font-size: 150px;
+    margin: 30px 0;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    margin: 0 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 17px;
+}
+.btn #dec{
+    background-color: crimson;
+    border: 2px solid rgb(255, 3, 3);
+    color: white;
+}
+.btn #reset{
+    background-color: #1F876F;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.btn #inc{
+    background-color: rgb(0, 125, 31);
+    border: 2px solid rgb(0, 125, 31);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        margin-top: 100px;
+
+    }
+    .main h1{
+        font-size: 50px;
+    }
+    .main h2{
+        font-size: 80px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn .btns{
+        margin: 10px 0;
+    }
+}
